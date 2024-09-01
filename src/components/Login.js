@@ -27,7 +27,7 @@ function Login(){
 
    if(!login_info){
     //Sign-Up Logic
-    createUserWithEmailAndPassword(auth, email.current.value, password.current.value)
+    createUserWithEmailAndPassword(auth, email?.current?.value, password?.current?.value)
       .then((userCredential) => {
         // Signed up 
         const user = userCredential.user;

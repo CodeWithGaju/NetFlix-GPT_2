@@ -11,12 +11,12 @@ const MainContainer = () => {
   const moviesData = useSelector(store => store?.movies?.nowPlayingMovies);
   if(!moviesData)return;
 
-  const mainMovie= moviesData[0];
+  const mainMovie= moviesData[12];
   const {id,original_title,overview} = mainMovie;
 
 
   return (
-    <div className='absolute'>
+    <div className=''>
 
      {/* video title */}
      <VideoTitle videoTitle={original_title} overView={overview}/>

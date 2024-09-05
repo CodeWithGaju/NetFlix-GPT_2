@@ -12,7 +12,7 @@ const SecondaryContainer = () => {
   useUpcominMovies();
   return (
     <div className='bg-black text-white'>
-      <div className=' -mt-28 text-white relative' >
+      <div className='-mt-5 md:-mt-28 text-white relative' >
        {nowPlayingMovies && <MovieList title={"Now Playing"} movie={nowPlayingMovies}/>}
       </div>
       

@@ -260,6 +260,13 @@ PS C:\JavaScript Code\Gaju coding tuturorial\JavaScript Practice\Namaste React P
 - update store with trailer Video Data
 - Embedded the Youtube Video and make it autoplay and mute
 - using Tailwind classes to make our MainContainer look Awesome
+- Build a SecondaryContainer Component
+- Build movie List
+- Build Movie card
+- Tmdb Image CDN url
+- made the Browse Page amazing with tailwind CSS
+- usePopularMovies custom hook
+- GPT Search Feature
  # Features
 - Login-Sign Up
     - sign-In/sign-Up Form

@@ -56,7 +56,7 @@ const Header = () => {
 
     <div className='absolute md:absolute  px-5 md:px-28  py-1 md:py-2  sm:py-1 bg-gradient-to-br w-full from-black flex justify-between z-10'>
    
-       <img className='w-20 md:w-40 ' src={NETFLIX_LOGO} alt='logo'/>
+       <img className='w-20 md:w-52 ' src={NETFLIX_LOGO} alt='logo'/>
       { user && <div className='h-5 mt-1 flex text-xs md:flex md:h-10 md:mt-3 md:text-base'>
                  {!showGptSearch  && <select className='px-1 py-[-1px] mr-1 md:px-3 md:py-2 md:mr-5  rounded-sm bg-gray-800 text-white' onClick={handleLanguage}>
                      {SUPPORTED_LANGUAGES.map(lang=><option key={lang.identifier} value={lang.identifier}>{lang.name}</option>)} 

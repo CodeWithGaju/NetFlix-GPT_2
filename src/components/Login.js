@@ -101,7 +101,7 @@ function Login(){
                   <button onClick={handleSubmit} className='text-xs md:text-base bg-red-600 w-full my-2 py-1 md:py-2 rounded-md'>{login_info ? "Sign In" : "Sign Up"}</button>
                       <p className='text-center text-xs md:text-lg py-2' >OR</p>
                       {login_info===true &&  <button className='btn_bg-color text-center text-xs md:text-base font-bold w-full py-1 md:py-2 rounded-md'>Use Sign-In Code</button>}
-                  <p className='md:py-5 text-xs md:text-base cursor-pointer mt-5 ' onClick={toggleOnClick}>{login_info ?"New to NetFlix?Sign Up Now":"Already Registered Sign In Now"}</p>
+                  <p className='md:py-5 text-xs md:text-base cursor-pointer mt-5 ' onClick={toggleOnClick}>{login_info ?"New to Dekhlo?Sign Up Now":"Already Registered Sign In Now"}</p>
                
                 </form>
               </div>
@@ -114,18 +114,3 @@ function Login(){
 }
 
 export default Login
-
-      {/* <div className='absolute'>
-       <img  src="https://assets.nflxext.com/ffe/siteui/vlv3/36a4db5b-dec2-458a-a1c0-662fa60e7473/1115a02b-3062-4dcc-aae0-94028a0dcdff/IN-en-20240820-TRIFECTA-perspective_WEB_eeff8a6e-0384-4791-a703-31368aeac39f_small.jpg"/> 
-       </div> */}
-    {/* <form className='absolute py-10 px-10 bg-black opacity-70 w-4/12 mx-auto right-0 left-0 my-36 text-white z-10'>
-      <h1 className='text-2xl my-5'>{login_info===true ? "Sign In" : "Sign Up "}</h1>
-      {login_info && <input type='text' placeholder='Full Name' className='p-2 rounded-md mt-3  w-full  bg-gray-500'/>}
-      <input type='text' placeholder='Email or Mobile Number'  className='p-2 rounded-md mt-3 w-full bg-gray-500 '/>
-      <input   type='password' placeholder='Password' className='p-2 rounded-md mt-3  w-full  bg-gray-500'/>
-      <button className='bg-red-700 w-full mt-5 py-2 rounded-md'>{login_info===true?"Sign In":"Sign Up"}</button>
-
-      <p className='py-6 cursor-pointer mt-5 ' onClick={toggleOnClick}>{login_info===true?"New to NetFlix?Sign Up Now":"Already Registered Sign In Now"}</p>
-    </form> */}
-
-    {/* <footer className='absolute bg-black w-full h-52 mt-[700px]'></footer> */}

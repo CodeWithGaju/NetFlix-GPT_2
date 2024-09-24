@@ -19,17 +19,7 @@ const GptSearchBar = () => {
 
     const handleSearch = async() => {
 
-      // const getQuery = "Act as Movie Recommendation system and suggest some movies for the query"+SearchInputText.current.value+". only give me names of 5 movies , comma separatd like the example  result given in ahead. Example Result: Gadar,Sholay,Don,Golmaal,koi mil gaya";
-      //     // console.log(SearchInputText.current.value);
-      //     const GptResults = await openAi.chat.completions.create({
-      //       messages: [{ role: 'user', content: getQuery }],
-      //       model: 'gpt-3.5-turbo',
-      //     });
-
-      //     console.log(GptResults.choices)
-
       const Search_Results = await SearchMovie_Data(SearchInputText.current.value);
-      // console.log(Search_Results)
       setSearchMovie(Search_Results);
       console.log(searchMovie)
     };

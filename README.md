@@ -205,7 +205,7 @@ You may serve it with a static server:
 
 Find out more about deployment here:
 
-  https://cra.link/deployment
+  
 # step-4: And then comes Deploy project on firebase command
 
 PS C:\JavaScript Code\Gaju coding tuturorial\JavaScript Practice\Namaste React Project-2\netflix-gpt_2> firebase deploy

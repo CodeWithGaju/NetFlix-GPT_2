@@ -11,7 +11,7 @@ const MainContainer = () => {
   const moviesData = useSelector(store => store?.movies?.nowPlayingMovies);
   if(!moviesData)return;
 
-  const mainMovie= moviesData[12];
+  const mainMovie= moviesData[9];
   const {id,original_title,overview} = mainMovie;
 
 

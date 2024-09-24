@@ -8,7 +8,7 @@ const VideoBackground = ({movieId}) => {
     useMovieTrailer(movieId);
 
    if(!TrailerVideo)return 
-//   console.log(TrailerVideo.key)
+
    
   return (
     <div className='md:w-screen md:h-screen'>
